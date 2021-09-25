@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Rest-Java:war">
+    <output-path>$PROJECT_DIR$/Rest-Java/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Rest-Java</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Rest-Java-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Rest-Java:war exploded" />
+    </root>
+  </artifact>
+</component>
